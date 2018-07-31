@@ -2,7 +2,7 @@ pragma solidity^0.4.0;    //version of solidity
 
 
 
-contract Database{    //Create a contract named Database
+contract Database{    //Create a contract named Database And Track the owner of the data, so only the sender can retrieve his data
  
    struct Person {     //creating own datatype(Struct) Person
        string name;     // with these properties
